@@ -1,0 +1,32 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 20px; */
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+
+/* Apply styles to the registration form container */
+.registration-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #ffe6ff; /* Apply border with desired width and color */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    text-align: center;
+    background-color:  #ffb3ff;
+}
+button{
+    width: 70px;
+    border-radius: 5px;
+    border-color: rgb(237, 240, 243);
+    border-collapse: separate;
+    background-color: #63bbee;
+}
+
